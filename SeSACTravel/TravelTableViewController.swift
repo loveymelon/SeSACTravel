@@ -13,6 +13,7 @@ class TravelTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.rowHeight = UITableView.automaticDimension // UITableView의 높이를 가변적으로 정하고 싶을때
         designNavigationItem()
     }
     
@@ -26,15 +27,11 @@ class TravelTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "TravelTableViewCell", for: indexPath) as! TravelTableViewCell
-        let url = URL(string: MagazineInfo.magazine[indexPath.row].photo_image)
-        let format = DateFormatter()
+        let indexValue = indexPath.row
         
-        format.dateFormat = "yyMMdd"
-        
-        let date = format.date(from: MagazineInfo.magazine[indexPath.row].date)
-        
-        format.dateFormat = "yy년 MM월 dd일"
+        cell.configuarCell(index: indexValue)
         
         cell.mainImageView.clipsToBounds = true
         cell.mainImageView.layer.cornerRadius = 15
@@ -45,12 +42,6 @@ class TravelTableViewController: UITableViewController {
         
         cell.subLabel.textColor = .lightGray
         cell.dateLabel.textColor = .lightGray
-        
-        cell.mainLabel.text = MagazineInfo.magazine[indexPath.row].title
-        cell.subLabel.text = MagazineInfo.magazine[indexPath.row].subtitle
-        cell.dateLabel.text = format.string(from: date!)
-        
-        cell.mainImageView.kf.setImage(with: url)
         
         return cell
     }
