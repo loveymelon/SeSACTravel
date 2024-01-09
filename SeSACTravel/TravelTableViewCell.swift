@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class TravelTableViewCell: UITableViewCell {
 
@@ -30,6 +31,9 @@ class TravelTableViewCell: UITableViewCell {
         
         self.dateLabel.text = format.string(from: date!)
         self.mainImageView.kf.setImage(with: url)
+        
+        self.mainImageView.clipsToBounds = true
+        self.mainImageView.layer.cornerRadius = self.mainImageView.bounds.width / 2
     }
     
 }

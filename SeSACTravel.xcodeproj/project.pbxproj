@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF354A7F2B4D2CA900540D71 /* TravelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF354A7D2B4D2CA900540D71 /* TravelCollectionViewCell.swift */; };
+		DF354A802B4D2CA900540D71 /* TravelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF354A7E2B4D2CA900540D71 /* TravelCollectionViewCell.xib */; };
+		DF354A842B4D2DA500540D71 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF354A832B4D2DA500540D71 /* TravelViewController.swift */; };
 		DF7714032B4BEE9200C009D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7714022B4BEE9200C009D4 /* AppDelegate.swift */; };
 		DF7714052B4BEE9200C009D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7714042B4BEE9200C009D4 /* SceneDelegate.swift */; };
 		DF7714072B4BEE9200C009D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7714062B4BEE9200C009D4 /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF354A7D2B4D2CA900540D71 /* TravelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCollectionViewCell.swift; sourceTree = "<group>"; };
+		DF354A7E2B4D2CA900540D71 /* TravelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TravelCollectionViewCell.xib; sourceTree = "<group>"; };
+		DF354A832B4D2DA500540D71 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
 		DF7713FF2B4BEE9200C009D4 /* SeSACTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7714022B4BEE9200C009D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF7714042B4BEE9200C009D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 				DF7714102B4BEE9400C009D4 /* Info.plist */,
 				DF7714162B4BF06500C009D4 /* TravelTableViewController.swift */,
 				DF7714182B4BF08E00C009D4 /* TravelTableViewCell.swift */,
+				DF354A832B4D2DA500540D71 /* TravelViewController.swift */,
+				DF354A7D2B4D2CA900540D71 /* TravelCollectionViewCell.swift */,
+				DF354A7E2B4D2CA900540D71 /* TravelCollectionViewCell.xib */,
 			);
 			path = SeSACTravel;
 			sourceTree = "<group>";
@@ -144,6 +153,7 @@
 			files = (
 				DF77140F2B4BEE9400C009D4 /* LaunchScreen.storyboard in Resources */,
 				DF77140C2B4BEE9400C009D4 /* Assets.xcassets in Resources */,
+				DF354A802B4D2CA900540D71 /* TravelCollectionViewCell.xib in Resources */,
 				DF77140A2B4BEE9200C009D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,8 +167,10 @@
 			files = (
 				DF7714072B4BEE9200C009D4 /* ViewController.swift in Sources */,
 				DF7714032B4BEE9200C009D4 /* AppDelegate.swift in Sources */,
+				DF354A842B4D2DA500540D71 /* TravelViewController.swift in Sources */,
 				DF7714052B4BEE9200C009D4 /* SceneDelegate.swift in Sources */,
 				DF7714192B4BF08E00C009D4 /* TravelTableViewCell.swift in Sources */,
+				DF354A7F2B4D2CA900540D71 /* TravelCollectionViewCell.swift in Sources */,
 				DF7714172B4BF06500C009D4 /* TravelTableViewController.swift in Sources */,
 				DF77141B2B4BF27E00C009D4 /* MagazineInfo.swift in Sources */,
 			);
