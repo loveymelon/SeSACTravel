@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF354A7F2B4D2CA900540D71 /* TravelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF354A7D2B4D2CA900540D71 /* TravelCollectionViewCell.swift */; };
-		DF354A802B4D2CA900540D71 /* TravelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF354A7E2B4D2CA900540D71 /* TravelCollectionViewCell.xib */; };
-		DF354A842B4D2DA500540D71 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF354A832B4D2DA500540D71 /* TravelViewController.swift */; };
+		DF73BF7F2B55465E00198C92 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF73BF7E2B55465E00198C92 /* Protocol.swift */; };
+		DF73BF852B554A7B00198C92 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF73BF842B554A7B00198C92 /* UITableViewCell+Extension.swift */; };
+		DF73BF892B554AF800198C92 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF73BF882B554AF800198C92 /* UIViewController+Extension.swift */; };
+		DF73BF8B2B554BE900198C92 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF73BF8A2B554BE900198C92 /* WebViewController.swift */; };
 		DF7714032B4BEE9200C009D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7714022B4BEE9200C009D4 /* AppDelegate.swift */; };
 		DF7714052B4BEE9200C009D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7714042B4BEE9200C009D4 /* SceneDelegate.swift */; };
-		DF7714072B4BEE9200C009D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7714062B4BEE9200C009D4 /* ViewController.swift */; };
 		DF77140A2B4BEE9200C009D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7714082B4BEE9200C009D4 /* Main.storyboard */; };
 		DF77140C2B4BEE9400C009D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF77140B2B4BEE9400C009D4 /* Assets.xcassets */; };
 		DF77140F2B4BEE9400C009D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF77140D2B4BEE9400C009D4 /* LaunchScreen.storyboard */; };
@@ -23,13 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF354A7D2B4D2CA900540D71 /* TravelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCollectionViewCell.swift; sourceTree = "<group>"; };
-		DF354A7E2B4D2CA900540D71 /* TravelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TravelCollectionViewCell.xib; sourceTree = "<group>"; };
-		DF354A832B4D2DA500540D71 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		DF73BF7E2B55465E00198C92 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		DF73BF842B554A7B00198C92 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		DF73BF882B554AF800198C92 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		DF73BF8A2B554BE900198C92 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		DF7713FF2B4BEE9200C009D4 /* SeSACTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7714022B4BEE9200C009D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF7714042B4BEE9200C009D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF7714062B4BEE9200C009D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF7714092B4BEE9200C009D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF77140B2B4BEE9400C009D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF77140E2B4BEE9400C009D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF73BF772B55454C00198C92 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DF73BF7E2B55465E00198C92 /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		DF73BF782B55455700198C92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF77141A2B4BF27E00C009D4 /* MagazineInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF73BF792B55455C00198C92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF7714162B4BF06500C009D4 /* TravelTableViewController.swift */,
+				DF73BF8A2B554BE900198C92 /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF73BF7A2B55456600198C92 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF73BF842B554A7B00198C92 /* UITableViewCell+Extension.swift */,
+				DF73BF882B554AF800198C92 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DF73BF7B2B55458200198C92 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF7714182B4BF08E00C009D4 /* TravelTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		DF7713F62B4BEE9200C009D4 = {
 			isa = PBXGroup;
 			children = (
@@ -70,19 +112,17 @@
 		DF7714012B4BEE9200C009D4 /* SeSACTravel */ = {
 			isa = PBXGroup;
 			children = (
+				DF73BF7B2B55458200198C92 /* Cell */,
+				DF73BF7A2B55456600198C92 /* Extension */,
+				DF73BF792B55455C00198C92 /* Controller */,
+				DF73BF782B55455700198C92 /* Model */,
+				DF73BF772B55454C00198C92 /* Protocol */,
 				DF7714022B4BEE9200C009D4 /* AppDelegate.swift */,
 				DF7714042B4BEE9200C009D4 /* SceneDelegate.swift */,
-				DF7714062B4BEE9200C009D4 /* ViewController.swift */,
 				DF7714082B4BEE9200C009D4 /* Main.storyboard */,
 				DF77140B2B4BEE9400C009D4 /* Assets.xcassets */,
 				DF77140D2B4BEE9400C009D4 /* LaunchScreen.storyboard */,
-				DF77141A2B4BF27E00C009D4 /* MagazineInfo.swift */,
 				DF7714102B4BEE9400C009D4 /* Info.plist */,
-				DF7714162B4BF06500C009D4 /* TravelTableViewController.swift */,
-				DF7714182B4BF08E00C009D4 /* TravelTableViewCell.swift */,
-				DF354A832B4D2DA500540D71 /* TravelViewController.swift */,
-				DF354A7D2B4D2CA900540D71 /* TravelCollectionViewCell.swift */,
-				DF354A7E2B4D2CA900540D71 /* TravelCollectionViewCell.xib */,
 			);
 			path = SeSACTravel;
 			sourceTree = "<group>";
@@ -153,7 +193,6 @@
 			files = (
 				DF77140F2B4BEE9400C009D4 /* LaunchScreen.storyboard in Resources */,
 				DF77140C2B4BEE9400C009D4 /* Assets.xcassets in Resources */,
-				DF354A802B4D2CA900540D71 /* TravelCollectionViewCell.xib in Resources */,
 				DF77140A2B4BEE9200C009D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,12 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7714072B4BEE9200C009D4 /* ViewController.swift in Sources */,
+				DF73BF892B554AF800198C92 /* UIViewController+Extension.swift in Sources */,
+				DF73BF8B2B554BE900198C92 /* WebViewController.swift in Sources */,
+				DF73BF852B554A7B00198C92 /* UITableViewCell+Extension.swift in Sources */,
 				DF7714032B4BEE9200C009D4 /* AppDelegate.swift in Sources */,
-				DF354A842B4D2DA500540D71 /* TravelViewController.swift in Sources */,
 				DF7714052B4BEE9200C009D4 /* SceneDelegate.swift in Sources */,
 				DF7714192B4BF08E00C009D4 /* TravelTableViewCell.swift in Sources */,
-				DF354A7F2B4D2CA900540D71 /* TravelCollectionViewCell.swift in Sources */,
+				DF73BF7F2B55465E00198C92 /* Protocol.swift in Sources */,
 				DF7714172B4BF06500C009D4 /* TravelTableViewController.swift in Sources */,
 				DF77141B2B4BF27E00C009D4 /* MagazineInfo.swift in Sources */,
 			);
